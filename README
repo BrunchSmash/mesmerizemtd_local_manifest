@@ -2,4 +2,4 @@ Manifest to sync testing commits for AOKP mesmerize
 
 repo init -u git://github.com/AOKP/platform_manifest.git -b jb
 
-curl -L -o .repo/local_manifest.xml -O -L https://raw.github.com/BrunchSmash/platform_manifest/master/default.xml
+curl -L -o .repo/local_manifest.xml -O -L https://raw.github.com/BrunchSmash/platform_manifest/jb/default.xml
