@@ -7,9 +7,9 @@ curl -L -o .repo/local_manifest.xml -O -L https://raw.github.com/BrunchSmash/mes
 <!-- Kernels -->
   <project name="CyanogenMod/android_kernel_samsung_aries" path="kernel/samsung/aries" remote="github" revision="jellybean" />
 <!-- Kernels -->
-      <project name="CyanogenMod/android_device_samsung_fascinatemtd" path="device/samsung/fascinatemtd" remote="github" revision="jellybean" />
+   <project name="CyanogenMod/android_device_samsung_mesmerizemtd" path="device/samsung/mesmerizemtd" remote="github" revision="jellybean" />
+   <project name="CyanogenMod/android_device_samsung_fascinatemtd" path="device/samsung/fascinatemtd" remote="github" revision="jellybean" />
    <project name="CyanogenMod/android_device_samsung_aries-common" path="device/samsung/aries-common" remote="github" revision="jellybean" />
-                 <project name="device/samsung/mesmerizemtd" path="Stevespear426/device_samsung_mesmerizemtd" remote="github" revision="jellybean" />  
    <remove-project name="AOKP/vendor_aokp" />
    <remove-project name="AOKP/frameworks_base" />
    <project path="frameworks/base" name="BrunchSmash/frameworks_base" remote="github" revision="jb" />
