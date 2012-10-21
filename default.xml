@@ -10,7 +10,7 @@
    <project name="CyanogenMod/android_device_samsung_mesmerizemtd" path="device/samsung/mesmerizemtd" remote="github" revision="jellybean" />
    <project name="CyanogenMod/android_device_samsung_fascinatemtd" path="device/samsung/fascinatemtd" remote="github" revision="jellybean" />
    <project name="CyanogenMod/android_device_samsung_aries-common" path="device/samsung/aries-common" remote="github" revision="jellybean" />
-                 <project path="device/samsung/mesmerizemtd" name="AOKP/android_device_samsung_mesmerizemtd.git" remote="aokp" revision="jb" />  
+                 <project path="device/samsung/mesmerizemtd" name="AOKP/android_device_samsung_mesmerizemtd.git" remote="github" revision="jb" />  
    <remove-project name="AOKP/vendor_aokp" />
    <remove-project name="AOKP/frameworks_base" />
    <project path="frameworks/base" name="BrunchSmash/frameworks_base" remote="github" revision="jb" />
