@@ -14,12 +14,11 @@
 
 
  
-  <!-- <remove-project name="vendor_aokp" />
+ <remove-project name="vendor_aokp" />
   <remove-project name="frameworks_base" /> -->
     
   
-  <!-- local -->
-  <!--<project path="vendor_aokp" name="BrunchSmash/vendor_aokp" remote="gh" revision="jb" />
+ <project path="vendor_aokp" name="BrunchSmash/vendor_aokp" remote="gh" revision="jb" />
   
   
   <project path="frameworks/base" name="BrunchSmash/frameworks_base" remote="gh" revision="jb" /> >
