@@ -15,7 +15,7 @@
 
  
  <remove-project name="vendor_aokp" />
-  <remove-project name="frameworks_base" /> -->
+  <remove-project name="frameworks_base" />
     
   
  <project path="vendor_aokp" name="BrunchSmash/vendor_aokp" remote="gh" revision="jb" />
