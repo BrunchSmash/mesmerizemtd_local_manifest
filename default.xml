@@ -14,5 +14,4 @@
                    <remove-project name="AOKP/frameworks_base" />
                    <project path="frameworks/base" name="BrunchSmash/frameworks_base" remote="github" revision="jb" />
                    <project path="vendor/aokp" name="BrunchSmash/vendor_aokp" remote="github" revision="jb" />
-   </project>
 </manifest>
