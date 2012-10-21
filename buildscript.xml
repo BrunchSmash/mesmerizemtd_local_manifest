@@ -1,0 +1,58 @@
+#! /bin/bash
+# echo states whatever i type is relayed to the user in text.
+# sleep tells to wait for given amount of time # is in sec or m for min and h for hour
+# wait tells terminal to wait till process is complete before continuing
+	
+	
+	# ----This section is to setup propper directory
+	date
+	echo Changing directory
+	cd ~/mesmerisemtd/mesmerize
+		sleep 1
+		
+		
+#echo Removing old builds
+#rm out/target/product/d2vzw/aokp*.zip*
+#sleep 1
+
+
+
+	#This line is to pull a manifest
+	echo curl local manifest
+	curl -L -o .repo/local_manifest.xml -O -L https://raw.github.com/BrunchSmash/mesmerizemtd_local_manifest/jb/default.xml
+	
+
+# ---This section is to Sync the repo
+
+echo Repo Sync -j32    Good luck out there!
+repo sync -j32
+
+
+	#-----This line is to add or remove cherries
+	#bash mes_repo_sync_cherries
+	#echo Cherries added
+	#	sleep 1
+	
+
+# #---this section builds rom for mesmerize---
+# echo Brunch time!
+# 	sleep 1
+# . build/envsetup.sh && brunch mesmerizemtd
+# wait
+# echo Thank you $USER, Your build finished at
+# #date
+# 
+# 		#----This section for converting Fascinate rom to Mesmerize---
+# 		echo Copying files
+# 		cp /AndroidBuilds/mesmerisemtd/mesmerize/out/target/product/d2vzw/aokp_*.zip* ~/mesmerisemtd/RomKonverter
+# 		wait
+# 		
+# 		
+# 	#------This Section for copying files to dropbox------
+# 	# cp ~/AndroidBuilds/mesmerisemtd/mesmerize/out/target/product/d2vzw/aokp_*.zip* ~/Dropbox/Mesmerize/
+# 	#wait
+# 	#echo Files copied to Dropbox Mesmerize
+# 	#echo Removing new builds
+# 	#rm out/target/product/d2vzw/aokp_d2vzw*.zip*
+# echo done
+# date
